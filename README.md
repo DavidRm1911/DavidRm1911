@@ -1,86 +1,84 @@
-# 👋 Hi, I'm David | Hola, soy David
+# Hi, I'm David Gallo
 
-🇵🇪 Software Engineering student (8th semester) at **UPC**  
-☁️ **AWS Certified Solutions Architect – Associate**  
-🚀 Focused on **Cloud Computing, Automation, and DevOps practices**
+**Cloud Operations Engineer** | Lima, Peru
 
----
-
-## About Me | Sobre mí
-
-**EN 🇺🇸**  
-I’m a Software Engineering student with a strong focus on **cloud-native infrastructure**, **automation**, and **operational excellence on AWS**.  
-I enjoy building scalable systems, automating repetitive tasks, and designing infrastructure that is reliable, secure, and observable.
-
-My long-term goal is to grow as a **Cloud / DevOps Engineer**, specializing in AWS operations and infrastructure automation.
-
-**ES 🇪🇸**  
-Soy estudiante de Ingeniería de Software con un enfoque fuerte en **infraestructura cloud**, **automatización** y **buenas prácticas DevOps en AWS**.  
-Me gusta diseñar sistemas escalables, automatizar tareas repetitivas y construir infraestructuras confiables, seguras y observables.
-
-
-
-Mi objetivo es crecer como **Cloud / DevOps Engineer**, con especialización en operaciones e infraestructura en AWS.
+Software Engineering student (9th semester) at **UPC**, operating production AWS infrastructure across 20+ accounts. Focused on cloud automation, observability, and incident response.
 
 ---
 
-## 💻 Tech Stack
+## Certifications
 
-### ☁️ Cloud & Infrastructure
+![AWS SAA](https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![AWS CloudOps](https://img.shields.io/badge/AWS-Cloud_Operations-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![AWS AI](https://img.shields.io/badge/AWS-AI_Practitioner-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![GCP ACE](https://img.shields.io/badge/GCP-Associate_Cloud_Engineer-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![English C1](https://img.shields.io/badge/English-C1_Cambridge-006400?style=flat)
+
+---
+
+## Tech Stack
+
+**Cloud & Infra:**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF4F00?style=flat&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
-### ⚙️ Automation & Backend
+**Observability & Security:**
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F00?style=flat&logo=amazonaws&logoColor=white)
+![Security Hub](https://img.shields.io/badge/Security_Hub-DD344C?style=flat&logo=amazonaws&logoColor=white)
+
+**Languages & Backend:**
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 
-### 🗄️ Databases
+**Databases:**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-### 🎓 Frontend (Academic)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+---
 
-### 🔧 Version Control
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+## Featured Projects
+
+### Cloud Automation & Operations
+
+| Project | Description | Tech |
+|---|---|---|
+| [ec2-rds-inventory](https://github.com/DavidRm1911/ec2-rds-inventory) | Multi-account EC2/RDS inventory with CloudWatch metrics, exports Excel reports to S3 | Lambda, STS, CloudWatch, S3 |
+| [Cloudwatch-Inventory](https://github.com/DavidRm1911/Cloudwatch-Inventory) | Cross-account CloudWatch alarm aggregation and compliance reporting | Lambda, CloudWatch, STS, S3 |
+| [sis-alarm-updates](https://github.com/DavidRm1911/sis-alarm-updates) | Bulk CloudWatch alarm SNS topic assignment with dry-run safety | Bash, AWS CLI, CloudWatch, SNS |
+| [Waf-Creator-Yaml](https://github.com/DavidRm1911/Waf-Creator-Yaml) | Production-ready WAF CloudFormation template with OWASP Top 10 protection | CloudFormation, WAF, Managed Rules |
+| [Ses-Bulker](https://github.com/DavidRm1911/Ses-Bulker) | Serverless bulk email with CSV personalization, rate limiting, and retry logic | Lambda, SES, S3 |
+
+### Academic
+
+| Project | Description | Tech |
+|---|---|---|
+| [EcoMovil](https://github.com/DavidRm1911/back-end-microservices) | Vehicle rental platform with microservices architecture | Spring Boot, Angular, ECS, RDS, WAF |
 
 ---
 
-## 🧠 Featured Repositories
+## Experience
 
-### ☁️ AWS Cloud Automation
-Hands-on projects focused on real AWS operational scenarios, automation, and observability.
-
-- **CloudWatch Alarms Multi-Account Inventory**  
-  → Cross-account AWS Lambda that inventories CloudWatch alarms across multiple regions and accounts, exporting structured reports to S3.
-
-- **Security Hub Findings Reporter**  
-  → Automated analysis and reporting of AWS Security Hub failed findings, grouped by security standard and control.
-
-- **SES Bulk Email Campaign Lambda**  
-  → Serverless solution for sending personalized bulk emails using Amazon SES, with batching, throttling control, and retry logic.
-
-### 🚗 Academic Project
-- **Ecomovil**  
-  Full-stack vehicle rental platform (Spring Boot + Angular + AWS), developed for academic purposes with a focus on backend and cloud integration.
+**Junior Cloud Specialist** @ Manantial Tecnologico (Jul 2025 - Present)
+- Operating 20+ production AWS accounts with incident management and root cause analysis
+- Led Splunk observability PoC integrating cloud and on-premise environments on Kubernetes
+- Built automated multi-account audit system with Lambda, Step Functions, EventBridge, and Terraform
+- Automated operational tasks with Lambda and CloudFormation, reducing recurring work by ~50%
 
 ---
 
-## 🌐 Socials
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white)](https://discord.gg/Rumizaske)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/David1911i)
-[![X](https://img.shields.io/badge/X-black?style=flat&logo=x&logoColor=white)](https://x.com/Rum1zaske)
+## GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=DavidRm1911&theme=dark&hide_border=true&show_icons=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=DavidRm1911&theme=dark&hide_border=true&layout=compact)
 
 ---
 
-## 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=DavidRm1911&theme=dark&hide_border=false)
-![](https://github-readme-streak-stats.herokuapp.com/?user=DavidRm1911&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=DavidRm1911&theme=dark&hide_border=false&layout=compact)
-
----
-
-[![](https://visitcount.itsvg.in/api?id=DavidRm1911&icon=0&color=0)](https://visitcount.itsvg.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:david1911qer@gmail.com)

@@ -49,6 +49,8 @@ Software Engineering student (9th semester) at **UPC**, operating production AWS
 
 | Project | Description | Tech |
 |---|---|---|
+| [aws-resource-inventory](https://github.com/DavidRm1911/aws-resource-inventory) | Multi-service AWS inventory with 10 collectors, Step Functions orchestration, cross-account | Lambda, Step Functions, STS, S3, Terraform |
+| [aws-lambda-monitoring-system](https://github.com/DavidRm1911/aws-lambda-monitoring-system) | 6-phase governance platform: quotas, health, CloudWatch, security, comms, backups | Lambda, EventBridge, CloudWatch, SES, Terraform |
 | [ec2-rds-inventory](https://github.com/DavidRm1911/ec2-rds-inventory) | Multi-account EC2/RDS inventory with CloudWatch metrics, exports Excel reports to S3 | Lambda, STS, CloudWatch, S3 |
 | [Cloudwatch-Inventory](https://github.com/DavidRm1911/Cloudwatch-Inventory) | Cross-account CloudWatch alarm aggregation and compliance reporting | Lambda, CloudWatch, STS, S3 |
 | [sis-alarm-updates](https://github.com/DavidRm1911/sis-alarm-updates) | Bulk CloudWatch alarm SNS topic assignment with dry-run safety | Bash, AWS CLI, CloudWatch, SNS |
